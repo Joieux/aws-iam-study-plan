@@ -55,3 +55,54 @@ Covers design, audit, and governance of IAM at scale for complex organizations.
 ---
 
 ## Repository Structure
+aws-iam-study-plan/ ├── 01-analyst/ │ └── analyst-level.md ├── 02-practitioner/ │ └── practitioner-level.md ├── 03-engineer/ │ └── engineer-level.md ├── 04-architect/ │ └── architect-level.md ├── README.md └── (other supporting files/resources)
+
+
+---
+
+## Usage Instructions
+
+1. Start with the section that matches your current experience.
+2. Work through each section’s materials and exercises.
+3. Use the official AWS documentation linked below for deeper study.
+4. Try the example questions to check your understanding.
+
+---
+
+## Study Tips
+
+- Practice writing and troubleshooting IAM policies (JSON).
+- Use a sandbox AWS account to experiment safely.
+- Simulate real-world scenarios, such as cross-account roles or identity federation.
+- Regularly review AWS documentation and security whitepapers.
+
+---
+
+## Resources
+
+- [AWS IAM Documentation](https://docs.aws.amazon.com/IAM/latest/UserGuide/)
+- [AWS Organizations Documentation](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html)
+- [AWS Security Best Practices](https://d1.awsstatic.com/whitepapers/Security/AWS_Security_Best_Practices.pdf)
+- [AWS IAM Policy Simulator](https://policysim.aws.amazon.com)
+- [AWS Certified Solutions Architect – Exam Guide](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
+
+---
+
+## Example Questions & Scenarios
+
+1. Write a policy to limit S3 access to specific buckets.
+2. Create a role for cross-account Lambda execution.
+3. Troubleshoot an IAM user denied access to EC2.
+4. Analyze why a federated user can't assume a role.
+5. Design an SCP to restrict resource creation to specific regions.
+
+---
+
+## Contributing
+
+Contributions are welcome!
+- Open issues for suggestions or corrections.
+- Submit pull requests with new scenarios, improved explanations, or additional resources.
+- Please follow AWS security and documentation best practices in all examples.
+
+---
