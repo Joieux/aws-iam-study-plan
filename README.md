@@ -55,8 +55,18 @@ Covers design, audit, and governance of IAM at scale for complex organizations.
 ---
 
 ## Repository Structure
-aws-iam-study-plan/ ├── 01-analyst/ │ └── analyst-level.md ├── 02-practitioner/ │ └── practitioner-level.md ├── 03-engineer/ │ └── engineer-level.md ├── 04-architect/ │ └── architect-level.md ├── README.md └── (other supporting files/resources)
 
+```plaintext
+aws-iam-study-plan/
+├── 01-analyst/
+│   └── analyst-level.md
+├── 02-practitioner/
+│   └── practitioner-level.md
+├── 03-engineer/
+│   └── engineer-level.md
+├── 04-architect/
+│   └── architect-level.md
+├── README.md
 
 ---
 
